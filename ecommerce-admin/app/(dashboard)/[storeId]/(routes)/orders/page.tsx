@@ -27,7 +27,7 @@ const OrdersPage = async ({
       createdAt: 'desc'
     }
   });
-
+   //this is the data that will be passed to the table
   const formattedOrders: OrderColumn[] = orders.map((item) => ({
     id: item.id,
     phone: item.phone,
