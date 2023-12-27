@@ -70,6 +70,7 @@ model Size {
   @@index([storeId])
 }
 
+
 model Color {
   id          String   @id @default(uuid())
   storeId     String   // Foreign Key to Store
